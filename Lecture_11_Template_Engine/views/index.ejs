@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            color:white;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        We are learning EJS <%=name %>
+    </h1>
+    <ul>
+        <li>
+            <%=products[0].title%>
+        </li>
+         <li>
+            <%=products[1].title%> and price= <%=products[1].price%>
+        </li>
+         <li>
+            <%=products[2].title%>
+        </li>
+        
+    </ul>
+    
+</body>
+</html>
